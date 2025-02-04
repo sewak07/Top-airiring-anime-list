@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #081950; 
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Section */
+.container {
+    padding: 50px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color:rgb(17, 17, 155);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+.description {
+    margin-bottom: 20px; /* Adds space between descriptions */
+  }
+  
+  .description p {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background for descriptions */
+    border-radius: 5px;
+  }
+  .inside{
+    border:none;
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.2);
+    margin:5px;
+    padding:10px;
+    border-radius: 4px;
+  }
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search {
+        width: 90%;
+    }
+
+    .describe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .describe div {
+        width: 95%;
+    }
+}
